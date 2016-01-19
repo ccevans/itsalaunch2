@@ -18,10 +18,9 @@ GIT
 
 GIT
   remote: git://github.com/josevalim/inherited_resources.git
-  revision: ff1c991307ff78cce98882b6986aeabbbcfd70c4
-  branch: rails-4-2
+  revision: eb430c1ea8c5118bd0437108b14a5d0d0a6b7196
   specs:
-    inherited_resources (1.5.1)
+    inherited_resources (1.6.0)
       actionpack (>= 3.2, < 5)
       has_scope (~> 0.6.0.rc)
       railties (>= 3.2, < 5)
@@ -104,7 +103,7 @@ GEM
     formtastic_i18n (0.1.1)
     globalid (0.3.0)
       activesupport (>= 4.1.0)
-    has_scope (0.6.0.rc)
+    has_scope (0.6.0)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
     hike (1.2.3)

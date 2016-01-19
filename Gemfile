@@ -7,7 +7,7 @@ gem 'rails', '4.2.0'
 gem 'activeadmin', github: 'activeadmin'
 gem 'delayed_job_active_record', '~> 4.0.3'
 gem 'devise'
-gem 'inherited_resources', github: 'josevalim/inherited_resources', branch: 'rails-4-2'
+gem 'inherited_resources', github: 'josevalim/inherited_resources'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'coffee-script-source', '1.8.0'
