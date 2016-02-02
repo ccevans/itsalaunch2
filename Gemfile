@@ -12,6 +12,7 @@ gem 'inherited_resources', github: 'josevalim/inherited_resources'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'coffee-script-source', '1.8.0'
 gem 'childprocess', '~> 0.5.9'
+gem 'font-awesome-sass'
 
 group :assets do
   gem 'coffee-rails', '~> 4.1.0'

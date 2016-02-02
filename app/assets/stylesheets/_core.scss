@@ -16,7 +16,7 @@ form{
 /* Home */
 
 html.home{
-	background: #EDECEA;
+	background: #2dd9ba;
 }
 
 #home{
@@ -30,19 +30,20 @@ html.home{
 
 #home .hero{
 	width: 100%;
-	height: 446px;
-	background: image-url("home/hero.jpg") center center no-repeat;
-	background-size: 1600px 446px;
+	height: 800px;
+
 	overflow: hidden;
 	position: relative;
 	letter-spacing: .09em;
 	margin: 0 auto;
 }
 
+.hero2 {width: 100%; height: auto;}
+
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
+	color: #000;
 	text-transform: uppercase;
 	margin: 85px 0 0 136px;
 	position: relative;
@@ -52,7 +53,7 @@ html.home{
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
+	color: #fff;
 	font-size: 18px;
 	margin: 10px 0 0 115px;
 	line-height: 30px;
@@ -74,8 +75,14 @@ html.home{
 	width: 46px;
 	height: 19px;
 	margin: 0 auto;
-	background: image-url("home/key.png") 0 0 no-repeat;
-	background-size: 46px 19px;
+
+}
+
+.key i.fa.fa-plug.fa-flip-horizontal {
+	color: #fff;
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
 }
 
 #home .form-wrap .byline{
@@ -248,7 +255,7 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #074E6F;
+	background: #2ddec7;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -278,8 +285,7 @@ html.home{
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: image-url("refer/logo.png") 0 0 no-repeat;
-	background-size: 106px 19px;
+
 	height: 19px;
 	width: 106px;
 	margin-top: 15px;
@@ -323,6 +329,10 @@ html.home{
 	margin-right: 60px;
 }
 
+#refer .plugsimage{
+	width: 300px;
+}
+
 #refer .share-wrap .why{
 	font-size: 16px;
 	color: #555556;
@@ -335,7 +345,7 @@ html.home{
 	line-height: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #074E6F;
+	color: #2ddec7;
 	margin-top: 18px;
 	letter-spacing: .13em;
 }
@@ -567,14 +577,14 @@ html.home{
 #refer .prizes p.place{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #2ddec7;
 	width: 100%;
 	font-weight: 500;
 	margin-top: 30px;
 }
 
 #refer .prizes p.place span{
-	color: #995F5E;
+	color: #000;
 }
 
 #refer .prizes p.check{
