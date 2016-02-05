@@ -1,0 +1,5560 @@
+@charset "UTF-8";
+/* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+html {
+  color: #000;
+  background: #FFF;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+fieldset, img {
+  border: 0;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+ol, ul {
+  list-style: none;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+caption, th {
+  text-align: left;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+q:before, q:after {
+  content: '';
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+sup {
+  vertical-align: text-top;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+sub {
+  vertical-align: text-bottom;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+input, textarea, select {
+  *font-size: 100%;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+legend {
+  color: #000;
+}
+
+/* line 2, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/reset.css */
+#yui3-css-stamp.cssreset {
+  display: none;
+}
+
+/*!
+ * Bootstrap v2.0.4
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+/* line 10, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 13, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+
+/* line 18, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 21, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 28, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 37, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+form {
+  margin: 0 0 18px;
+}
+
+/* line 40, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 45, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 27px;
+  font-size: 19.5px;
+  line-height: 36px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 56, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+legend small {
+  font-size: 13.5px;
+  color: #999999;
+}
+
+/* line 60, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+label,
+input,
+button,
+select,
+textarea {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+/* line 69, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input,
+button,
+select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 75, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* line 79, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  display: inline-block;
+  height: 18px;
+  padding: 4px;
+  margin-bottom: 9px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #555555;
+}
+
+/* line 104, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input,
+textarea {
+  width: 210px;
+}
+
+/* line 108, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+textarea {
+  height: auto;
+}
+
+/* line 111, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+/* line 141, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/* line 166, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 3px 0;
+  *margin-top: 0;
+  /* IE7 */
+  line-height: normal;
+  cursor: pointer;
+}
+
+/* line 175, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+/* line 182, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.uneditable-textarea {
+  width: auto;
+  height: auto;
+}
+
+/* line 186, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+select,
+input[type="file"] {
+  height: 28px;
+  /* In IE7, the height of the select element cannot be changed by height, only font-size */
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+  line-height: 28px;
+}
+
+/* line 196, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+select {
+  width: 220px;
+  border: 1px solid #bbb;
+}
+
+/* line 200, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+/* line 204, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 212, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.radio,
+.checkbox {
+  min-height: 18px;
+  padding-left: 18px;
+}
+
+/* line 217, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -18px;
+}
+
+/* line 222, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.controls > .radio:first-child,
+.controls > .checkbox:first-child {
+  padding-top: 5px;
+}
+
+/* line 226, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.radio.inline,
+.checkbox.inline {
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+/* line 233, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.radio.inline + .radio.inline,
+.checkbox.inline + .checkbox.inline {
+  margin-left: 10px;
+}
+
+/* line 237, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-mini {
+  width: 60px;
+}
+
+/* line 240, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-small {
+  width: 90px;
+}
+
+/* line 243, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-medium {
+  width: 150px;
+}
+
+/* line 246, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-large {
+  width: 210px;
+}
+
+/* line 249, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-xlarge {
+  width: 270px;
+}
+
+/* line 252, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-xxlarge {
+  width: 530px;
+}
+
+/* line 255, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input[class*="span"],
+select[class*="span"],
+textarea[class*="span"],
+.uneditable-input[class*="span"],
+.row-fluid input[class*="span"],
+.row-fluid select[class*="span"],
+.row-fluid textarea[class*="span"],
+.row-fluid .uneditable-input[class*="span"] {
+  float: none;
+  margin-left: 0;
+}
+
+/* line 266, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-append input[class*="span"],
+.input-append .uneditable-input[class*="span"],
+.input-prepend input[class*="span"],
+.input-prepend .uneditable-input[class*="span"],
+.row-fluid .input-prepend [class*="span"],
+.row-fluid .input-append [class*="span"] {
+  display: inline-block;
+}
+
+/* line 274, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input,
+textarea,
+.uneditable-input {
+  margin-left: 0;
+}
+
+/* line 279, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span12, textarea.span12, .uneditable-input.span12 {
+  width: 930px;
+}
+
+/* line 282, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span11, textarea.span11, .uneditable-input.span11 {
+  width: 850px;
+}
+
+/* line 285, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span10, textarea.span10, .uneditable-input.span10 {
+  width: 770px;
+}
+
+/* line 288, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span9, textarea.span9, .uneditable-input.span9 {
+  width: 690px;
+}
+
+/* line 291, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span8, textarea.span8, .uneditable-input.span8 {
+  width: 610px;
+}
+
+/* line 294, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span7, textarea.span7, .uneditable-input.span7 {
+  width: 530px;
+}
+
+/* line 297, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span6, textarea.span6, .uneditable-input.span6 {
+  width: 450px;
+}
+
+/* line 300, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span5, textarea.span5, .uneditable-input.span5 {
+  width: 370px;
+}
+
+/* line 303, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span4, textarea.span4, .uneditable-input.span4 {
+  width: 290px;
+}
+
+/* line 306, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span3, textarea.span3, .uneditable-input.span3 {
+  width: 210px;
+}
+
+/* line 309, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span2, textarea.span2, .uneditable-input.span2 {
+  width: 130px;
+}
+
+/* line 312, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input.span1, textarea.span1, .uneditable-input.span1 {
+  width: 50px;
+}
+
+/* line 315, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  border-color: #ddd;
+}
+
+/* line 325, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"][readonly],
+input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+
+/* line 331, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.warning > label,
+.control-group.warning .help-block,
+.control-group.warning .help-inline {
+  color: #c09853;
+}
+
+/* line 336, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.warning .checkbox,
+.control-group.warning .radio,
+.control-group.warning input,
+.control-group.warning select,
+.control-group.warning textarea {
+  color: #c09853;
+  border-color: #c09853;
+}
+
+/* line 344, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.warning .checkbox:focus,
+.control-group.warning .radio:focus,
+.control-group.warning input:focus,
+.control-group.warning select:focus,
+.control-group.warning textarea:focus {
+  border-color: #a47e3c;
+  -webkit-box-shadow: 0 0 6px #dbc59e;
+  -moz-box-shadow: 0 0 6px #dbc59e;
+  box-shadow: 0 0 6px #dbc59e;
+}
+
+/* line 354, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.warning .input-prepend .add-on,
+.control-group.warning .input-append .add-on {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #c09853;
+}
+
+/* line 360, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.error > label,
+.control-group.error .help-block,
+.control-group.error .help-inline {
+  color: #b94a48;
+}
+
+/* line 365, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.error .checkbox,
+.control-group.error .radio,
+.control-group.error input,
+.control-group.error select,
+.control-group.error textarea {
+  color: #b94a48;
+  border-color: #b94a48;
+}
+
+/* line 373, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.error .checkbox:focus,
+.control-group.error .radio:focus,
+.control-group.error input:focus,
+.control-group.error select:focus,
+.control-group.error textarea:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: 0 0 6px #d59392;
+  -moz-box-shadow: 0 0 6px #d59392;
+  box-shadow: 0 0 6px #d59392;
+}
+
+/* line 383, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.error .input-prepend .add-on,
+.control-group.error .input-append .add-on {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #b94a48;
+}
+
+/* line 389, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.success > label,
+.control-group.success .help-block,
+.control-group.success .help-inline {
+  color: #468847;
+}
+
+/* line 394, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.success .checkbox,
+.control-group.success .radio,
+.control-group.success input,
+.control-group.success select,
+.control-group.success textarea {
+  color: #468847;
+  border-color: #468847;
+}
+
+/* line 402, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.success .checkbox:focus,
+.control-group.success .radio:focus,
+.control-group.success input:focus,
+.control-group.success select:focus,
+.control-group.success textarea:focus {
+  border-color: #356635;
+  -webkit-box-shadow: 0 0 6px #7aba7b;
+  -moz-box-shadow: 0 0 6px #7aba7b;
+  box-shadow: 0 0 6px #7aba7b;
+}
+
+/* line 412, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group.success .input-prepend .add-on,
+.control-group.success .input-append .add-on {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #468847;
+}
+
+/* line 418, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input:focus:required:invalid,
+textarea:focus:required:invalid,
+select:focus:required:invalid {
+  color: #b94a48;
+  border-color: #ee5f5b;
+}
+
+/* line 424, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+input:focus:required:invalid:focus,
+textarea:focus:required:invalid:focus,
+select:focus:required:invalid:focus {
+  border-color: #e9322d;
+  -webkit-box-shadow: 0 0 6px #f8b9b7;
+  -moz-box-shadow: 0 0 6px #f8b9b7;
+  box-shadow: 0 0 6px #f8b9b7;
+}
+
+/* line 432, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-actions {
+  padding: 17px 20px 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+  *zoom: 1;
+}
+
+/* line 440, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-actions:before,
+.form-actions:after {
+  display: table;
+  content: "";
+}
+
+/* line 445, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-actions:after {
+  clear: both;
+}
+
+/* line 448, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.uneditable-input {
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: not-allowed;
+  background-color: #ffffff;
+  border-color: #eee;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+}
+
+/* line 458, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+:-moz-placeholder {
+  color: #999999;
+}
+
+/* line 461, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+:-ms-input-placeholder {
+  color: #999999;
+}
+
+/* line 464, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+::-webkit-input-placeholder {
+  color: #999999;
+}
+
+/* line 467, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.help-block,
+.help-inline {
+  color: #555555;
+}
+
+/* line 471, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.help-block {
+  display: block;
+  margin-bottom: 9px;
+}
+
+/* line 475, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.help-inline {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+/* line 484, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend,
+.input-append {
+  margin-bottom: 5px;
+}
+
+/* line 488, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend input,
+.input-append input,
+.input-prepend select,
+.input-append select,
+.input-prepend .uneditable-input,
+.input-append .uneditable-input {
+  position: relative;
+  margin-bottom: 0;
+  *margin-left: 0;
+  vertical-align: middle;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* line 502, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend input:focus,
+.input-append input:focus,
+.input-prepend select:focus,
+.input-append select:focus,
+.input-prepend .uneditable-input:focus,
+.input-append .uneditable-input:focus {
+  z-index: 2;
+}
+
+/* line 510, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend .uneditable-input,
+.input-append .uneditable-input {
+  border-left-color: #ccc;
+}
+
+/* line 514, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend .add-on,
+.input-append .add-on {
+  display: inline-block;
+  width: auto;
+  height: 18px;
+  min-width: 16px;
+  padding: 4px 5px;
+  font-weight: normal;
+  line-height: 18px;
+  text-align: center;
+  text-shadow: 0 1px 0 #ffffff;
+  vertical-align: middle;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+}
+
+/* line 529, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend .add-on,
+.input-append .add-on,
+.input-prepend .btn,
+.input-append .btn {
+  margin-left: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 538, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend .active,
+.input-append .active {
+  background-color: #a9dba9;
+  border-color: #46a546;
+}
+
+/* line 543, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend .add-on,
+.input-prepend .btn {
+  margin-right: -1px;
+}
+
+/* line 547, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend .add-on:first-child,
+.input-prepend .btn:first-child {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 553, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-append input,
+.input-append select,
+.input-append .uneditable-input {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 560, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-append .uneditable-input {
+  border-right-color: #ccc;
+  border-left-color: #eee;
+}
+
+/* line 564, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-append .add-on:last-child,
+.input-append .btn:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* line 570, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend.input-append input,
+.input-prepend.input-append select,
+.input-prepend.input-append .uneditable-input {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 577, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend.input-append .add-on:first-child,
+.input-prepend.input-append .btn:first-child {
+  margin-right: -1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 584, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.input-prepend.input-append .add-on:last-child,
+.input-prepend.input-append .btn:last-child {
+  margin-left: -1px;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* line 591, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.search-query {
+  padding-right: 14px;
+  padding-right: 4px \9;
+  padding-left: 14px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+
+/* line 603, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-search input,
+.form-inline input,
+.form-horizontal input,
+.form-search textarea,
+.form-inline textarea,
+.form-horizontal textarea,
+.form-search select,
+.form-inline select,
+.form-horizontal select,
+.form-search .help-inline,
+.form-inline .help-inline,
+.form-horizontal .help-inline,
+.form-search .uneditable-input,
+.form-inline .uneditable-input,
+.form-horizontal .uneditable-input,
+.form-search .input-prepend,
+.form-inline .input-prepend,
+.form-horizontal .input-prepend,
+.form-search .input-append,
+.form-inline .input-append,
+.form-horizontal .input-append {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  margin-bottom: 0;
+}
+
+/* line 631, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-search .hide,
+.form-inline .hide,
+.form-horizontal .hide {
+  display: none;
+}
+
+/* line 636, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-search label,
+.form-inline label {
+  display: inline-block;
+}
+
+/* line 640, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-search .input-append,
+.form-inline .input-append,
+.form-search .input-prepend,
+.form-inline .input-prepend {
+  margin-bottom: 0;
+}
+
+/* line 646, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-search .radio,
+.form-search .checkbox,
+.form-inline .radio,
+.form-inline .checkbox {
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+/* line 654, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-search .radio input[type="radio"],
+.form-search .checkbox input[type="checkbox"],
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] {
+  float: left;
+  margin-right: 3px;
+  margin-left: 0;
+}
+
+/* line 662, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.control-group {
+  margin-bottom: 9px;
+}
+
+/* line 665, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+legend + .control-group {
+  margin-top: 18px;
+  -webkit-margin-top-collapse: separate;
+}
+
+/* line 669, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .control-group {
+  margin-bottom: 18px;
+  *zoom: 1;
+}
+
+/* line 673, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .control-group:before,
+.form-horizontal .control-group:after {
+  display: table;
+  content: "";
+}
+
+/* line 678, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .control-group:after {
+  clear: both;
+}
+
+/* line 681, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .control-label {
+  float: left;
+  width: 140px;
+  padding-top: 5px;
+  text-align: right;
+}
+
+/* line 687, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .controls {
+  *display: inline-block;
+  *padding-left: 20px;
+  margin-left: 160px;
+  *margin-left: 0;
+}
+
+/* line 693, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .controls:first-child {
+  *padding-left: 160px;
+}
+
+/* line 696, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .help-block {
+  margin-top: 9px;
+  margin-bottom: 0;
+}
+
+/* line 700, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.form-horizontal .form-actions {
+  padding-left: 160px;
+}
+
+/* line 703, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 4px 10px 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 18px;
+  *line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(top, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 745, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+/* line 753, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn:active,
+.btn.active {
+  background-color: #cccccc \9;
+}
+
+/* line 757, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn:first-child {
+  *margin-left: 0;
+}
+
+/* line 760, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -ms-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+/* line 774, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 779, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn.active,
+.btn:active {
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 789, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn.disabled,
+.btn[disabled] {
+  cursor: default;
+  background-color: #e6e6e6;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 800, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-large {
+  padding: 9px 14px;
+  font-size: 15px;
+  line-height: normal;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 808, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-large [class^="icon-"] {
+  margin-top: 1px;
+}
+
+/* line 811, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-small {
+  padding: 5px 9px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+/* line 816, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-small [class^="icon-"] {
+  margin-top: -1px;
+}
+
+/* line 819, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-mini {
+  padding: 2px 6px;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+/* line 824, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-primary,
+.btn-primary:hover,
+.btn-warning,
+.btn-warning:hover,
+.btn-danger,
+.btn-danger:hover,
+.btn-success,
+.btn-success:hover,
+.btn-info,
+.btn-info:hover,
+.btn-inverse,
+.btn-inverse:hover {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 839, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 847, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn {
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+/* line 851, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-primary {
+  background-color: #0074cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -ms-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0055cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0055cc);
+  background-image: linear-gradient(top, #0088cc, #0055cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0055cc', GradientType=0);
+  border-color: #0055cc #0055cc #003580;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #0055cc;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 868, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  background-color: #0055cc;
+  *background-color: #004ab3;
+}
+
+/* line 876, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #004099 \9;
+}
+
+/* line 880, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-warning {
+  background-color: #faa732;
+  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+  background-image: -ms-linear-gradient(top, #fbb450, #f89406);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+  background-image: -o-linear-gradient(top, #fbb450, #f89406);
+  background-image: linear-gradient(top, #fbb450, #f89406);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb450', endColorstr='#f89406', GradientType=0);
+  border-color: #f89406 #f89406 #ad6704;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #f89406;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 897, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled] {
+  background-color: #f89406;
+  *background-color: #df8505;
+}
+
+/* line 905, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-warning:active,
+.btn-warning.active {
+  background-color: #c67605 \9;
+}
+
+/* line 909, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-danger {
+  background-color: #da4f49;
+  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -ms-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: linear-gradient(top, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#bd362f', GradientType=0);
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #bd362f;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 926, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  background-color: #bd362f;
+  *background-color: #a9302a;
+}
+
+/* line 934, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-danger:active,
+.btn-danger.active {
+  background-color: #942a25 \9;
+}
+
+/* line 938, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-success {
+  background-color: #5bb75b;
+  background-image: -moz-linear-gradient(top, #62c462, #51a351);
+  background-image: -ms-linear-gradient(top, #62c462, #51a351);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+  background-image: -o-linear-gradient(top, #62c462, #51a351);
+  background-image: linear-gradient(top, #62c462, #51a351);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#51a351', GradientType=0);
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #51a351;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 955, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background-color: #51a351;
+  *background-color: #499249;
+}
+
+/* line 963, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-success:active,
+.btn-success.active {
+  background-color: #408140 \9;
+}
+
+/* line 967, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-info {
+  background-color: #49afcd;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -ms-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(top, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#2f96b4', GradientType=0);
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #2f96b4;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 984, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-info:hover,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+
+/* line 992, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-info:active,
+.btn-info.active {
+  background-color: #24748c \9;
+}
+
+/* line 996, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-inverse {
+  background-color: #414141;
+  background-image: -moz-linear-gradient(top, #555555, #222222);
+  background-image: -ms-linear-gradient(top, #555555, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#555555), to(#222222));
+  background-image: -webkit-linear-gradient(top, #555555, #222222);
+  background-image: -o-linear-gradient(top, #555555, #222222);
+  background-image: linear-gradient(top, #555555, #222222);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#222222', GradientType=0);
+  border-color: #222222 #222222 #000000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #222222;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* line 1013, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-inverse:hover,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.disabled,
+.btn-inverse[disabled] {
+  background-color: #222222;
+  *background-color: #151515;
+}
+
+/* line 1021, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+.btn-inverse:active,
+.btn-inverse.active {
+  background-color: #080808 \9;
+}
+
+/* line 1025, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+button.btn,
+input[type="submit"].btn {
+  *padding-top: 2px;
+  *padding-bottom: 2px;
+}
+
+/* line 1030, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+button.btn::-moz-focus-inner,
+input[type="submit"].btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 1035, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+button.btn.btn-large,
+input[type="submit"].btn.btn-large {
+  *padding-top: 7px;
+  *padding-bottom: 7px;
+}
+
+/* line 1040, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+button.btn.btn-small,
+input[type="submit"].btn.btn-small {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+
+/* line 1045, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/bootstrap.css */
+button.btn.btn-mini,
+input[type="submit"].btn.btn-mini {
+  *padding-top: 1px;
+  *padding-bottom: 1px;
+}
+
+/* line 1, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+form {
+  margin-bottom: 0;
+}
+
+/* line 5, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 11, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* Home */
+/* line 18, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+html.home {
+  background: #2dd9ba;
+}
+
+/* line 22, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home {
+  padding-bottom: 50px;
+}
+
+/* line 26, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .page-content {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/* line 31, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .hero {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  letter-spacing: .09em;
+  margin: 0 auto;
+}
+
+/* line 41, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+.hero2 {
+  width: 100%;
+  height: auto;
+}
+
+/* line 43, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .hero .large {
+  font-weight: bold;
+  font-size: 40px;
+  color: #000;
+  text-transform: uppercase;
+  margin: 85px 0 0 136px;
+  position: relative;
+  z-index: 2;
+  letter-spacing: 2px;
+}
+
+/* line 54, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .hero .small {
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+  margin: 10px 0 0 115px;
+  line-height: 30px;
+  position: relative;
+  z-index: 2;
+  text-transform: uppercase;
+  text-align: center;
+  width: 375px;
+  letter-spacing: 1px;
+}
+
+/* line 68, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap {
+  height: 80px;
+  width: 411px;
+  margin: 23px auto 0;
+}
+
+/* line 74, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap .key {
+  width: 46px;
+  height: 19px;
+  margin: 0 auto;
+}
+
+/* line 81, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+.key i.fa.fa-plug.fa-flip-horizontal {
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* line 88, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap .byline {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #074E6F;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 15px 0;
+}
+
+/* line 98, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap .email {
+  float: left;
+  font-size: 13px;
+  padding: 8px 0 8px 10px;
+  border: 1px solid #074E6F;
+  width: 256px;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+/* line 108, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap .submit {
+  width: 143px;
+  background: #074E6F;
+  float: left;
+  height: 37px;
+  line-height: 37px;
+  color: #FFF;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: 0;
+  letter-spacing: 2px;
+}
+
+/* line 121, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended {
+  width: 500px;
+  margin-top: 27px;
+}
+
+/* line 126, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .thanks {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #074e6f;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 36px;
+  margin-bottom: 14px;
+}
+
+/* line 137, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .compiling {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #555556;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+/* line 148, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* line 156, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to a {
+  color: #074e6f;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* line 165, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to a:hover {
+  color: #955F5D;
+}
+
+/* line 169, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .again {
+  font-weight: 500;
+  color: #555556;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* line 177, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended {
+  width: 500px;
+  margin-top: 27px;
+}
+
+/* line 182, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .thanks {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #074e6f;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 36px;
+  margin-bottom: 14px;
+}
+
+/* line 193, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .compiling {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #555556;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+/* line 204, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* line 212, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to a {
+  color: #074e6f;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* line 221, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .go-to a:hover {
+  color: #955F5D;
+}
+
+/* line 225, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#home .form-wrap.ended .again {
+  font-weight: 500;
+  color: #555556;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Refer a friend page */
+/* line 237, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+.wf-loading .brandon {
+  visibility: hidden;
+}
+
+/* line 241, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+.brandon {
+  font-family: "Brandon Grotesque", "brandon-grotesque", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+}
+
+/* line 245, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer {
+  background: #FFF;
+}
+
+/* line 249, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .page-content {
+  width: 1120px;
+  margin: 0 auto;
+  z-index: 0;
+  position: relative;
+}
+
+/* line 256, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .header {
+  height: 50px;
+  background: #2ddec7;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+
+/* line 265, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .header .content {
+  width: 315px;
+  margin: 0 auto;
+}
+
+/* line 270, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .header p {
+  float: left;
+  color: #FFF;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+/* line 278, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .header .byline {
+  font-size: 14px;
+}
+
+/* line 282, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .header .logo {
+  font-weight: normal;
+  font-size: 0;
+  line-height: 0;
+  margin-right: 14px;
+  letter-spacing: 1px;
+  height: 19px;
+  width: 106px;
+  margin-top: 15px;
+}
+
+/* line 294, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .hero {
+  background: #F1F0EE;
+  height: 391px;
+  overflow: hidden;
+}
+
+/* line 300, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .mammoth {
+  width: 612px;
+  height: 394px;
+  background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
+  background-size: 610px 394px;
+  overflow: hidden;
+  margin-top: 15px;
+  float: left;
+}
+
+/* line 310, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .mammoth .need {
+  color: #FFF;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 102px 0 0 72px;
+  display: block;
+  line-height: 56px;
+  letter-spacing: 4px;
+  text-align: center;
+  width: 284px;
+}
+
+/* line 323, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap {
+  float: right;
+  width: 400px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .13em;
+  margin-right: 60px;
+}
+
+/* line 332, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .plugsimage {
+  width: 300px;
+}
+
+/* line 336, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .why {
+  font-size: 16px;
+  color: #555556;
+  font-weight: bold;
+  margin-top: 42px;
+}
+
+/* line 343, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .title {
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2ddec7;
+  margin-top: 18px;
+  letter-spacing: .13em;
+}
+
+/* line 353, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .subtitle {
+  color: #565656;
+  font-size: 14px;
+  text-transform: none;
+  margin-top: 15px;
+}
+
+/* line 360, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .copy-link {
+  border: 1px solid #D1D0C7;
+  background: #FFF;
+  padding: 10px 0;
+  width: 320px;
+  text-transform: none;
+  font-size: 11px;
+  margin: 20px auto 0;
+}
+
+/* line 370, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links {
+  width: 120px;
+  height: 37px;
+  margin: 25px auto 0;
+  text-align: center;
+}
+
+/* line 377, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links a, #refer .share-wrap .social-links div {
+  display: inline-block;
+}
+
+/* line 381, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links .fb {
+  background: url(/assets/refer/fb.png);
+  background-size: 27px 27px;
+  width: 27px;
+  height: 27px;
+}
+
+/* line 388, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links .twit {
+  background: url(/assets/refer/twit.png);
+  background-size: 27px 27px;
+  width: 27px;
+  height: 27px;
+}
+
+/* line 395, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .share-wrap .social-links .sep {
+  height: 28px;
+  width: 1px;
+  background: #BAB9BA;
+  margin: 0 20px;
+}
+
+/* line 402, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes {
+  width: 100%;
+  background: #FFF;
+  border-top: 1px solid #D2D1C8;
+  padding-bottom: 100px;
+}
+
+/* line 409, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .page-content {
+  position: relative;
+}
+
+/* line 413, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .callout {
+  text-align: center;
+  font-size: 16px;
+  color: #074E6F;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* line 423, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .progress {
+  height: 4px;
+  width: 100%;
+  background: url(/assets/refer/progress-bg.png) 0 0 repeat-x;
+  background-size: 1px 4px;
+  position: absolute;
+  top: 100px;
+  z-index: 0;
+}
+
+/* line 433, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .progress .mover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 439, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .progress .mover .bar {
+  background: url(/assets/refer/progress-done.png) 0 0 repeat-x;
+  width: 165px;
+  height: 4px;
+  -webkit-background-size: 1px 4px;
+  background-size: 1px 4px;
+}
+
+/* line 447, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prize-two .progress .mover .bar {
+  width: 312px;
+}
+
+/* line 448, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prize-three .progress .mover .bar {
+  width: 566px;
+}
+
+/* line 449, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prize-four .progress .mover .bar {
+  width: 820px;
+}
+
+/* line 450, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prize-five .progress .mover .bar {
+  width: 1120px;
+}
+
+/* line 453, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes ul.products {
+  height: 105px;
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 461, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.title {
+  height: 100%;
+  text-transform: uppercase;
+  color: #074E6F;
+  font-weight: 500;
+  font-size: 14px;
+  float: left;
+  margin-right: 68px;
+  width: 165px;
+  font-weight: bold;
+}
+
+/* line 473, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.title .friends {
+  margin-top: 7px;
+  letter-spacing: 2px;
+}
+
+/* line 478, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.title .rewards {
+  margin-top: 45px;
+  letter-spacing: 2px;
+}
+
+/* line 483, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product {
+  height: 100%;
+  color: #074E6F;
+  width: 125px;
+  margin-right: 129px;
+  float: left;
+  position: relative;
+}
+
+/* line 492, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border: 1px solid #DAD9D2;
+  text-align: center;
+  line-height: 30px;
+  color: #868282;
+  overflow: hidden;
+  background: #F1F0EE;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+/* line 506, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .sep {
+  width: 12px;
+  height: 2px;
+  background: transparent;
+  margin: 13px auto 13px;
+}
+
+/* line 513, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .caret {
+  width: 100%;
+  height: 10px;
+  background: url(/images/refer/caret.png) center center no-repeat;
+  background-size: 16px 10px;
+  position: absolute;
+  bottom: -15px;
+}
+
+/* line 522, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product.selected .caret {
+  background: url(/images/refer/caret-selected.png) center center no-repeat;
+  background-size: 16px 10px;
+}
+
+/* line 527, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product p {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* line 532, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product:last-child {
+  margin-right: 0;
+}
+
+/* line 536, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product.last {
+  margin-right: 0;
+}
+
+/* line 540, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product.selected .circle {
+  background: #995F5E !important;
+  border-color: #995F5E !important;
+  color: #FFF !important;
+}
+
+/* line 547, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product.selected p {
+  color: #995F5E !important;
+}
+
+/* line 551, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product:hover .circle {
+  color: #FFF;
+  background: #074E6F;
+  border-color: #074E6F;
+}
+
+/* line 557, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .tooltip {
+  height: 254px;
+  width: 190px;
+  border: 4px solid #074E6F;
+  position: absolute;
+  top: -285px;
+  left: -32px;
+  display: none;
+  background: #FFF;
+}
+
+/* line 568, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product .tooltip img {
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 573, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes .products li.product:hover .tooltip {
+  display: block;
+}
+
+/* line 577, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes p.place {
+  text-align: center;
+  font-size: 16px;
+  color: #2ddec7;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+/* line 586, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes p.place span {
+  color: #000;
+}
+
+/* line 590, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes p.check {
+  text-align: center;
+  font-size: 16px;
+  color: #858181;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/* line 599, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes p.ship {
+  text-align: center;
+  font-size: 16px;
+  color: #858181;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+/* line 608, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+#refer .prizes a.policy {
+  text-align: center;
+  font-size: 12px;
+  color: #CCCCCC;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 619, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+.design-footer {
+  width: 20px;
+  height: auto;
+  text-decoration: none;
+}
+
+/*
+	RETINA
+*/
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  /* line 630, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #home .hero {
+    background: url(/assets/home/hero@2x.jpg) center center no-repeat;
+    background-size: 1600px 446px;
+  }
+
+  /* line 635, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #home .form-wrap .key {
+    background: url(/assets/home/key@2x.png) 0 0 no-repeat;
+    background-size: 46px 19px;
+  }
+
+  /* line 640, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #refer .header .logo {
+    background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;
+    background-size: 106px 19px;
+  }
+
+  /* line 645, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #refer .mammoth {
+    background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
+    background-size: 610px 394px;
+  }
+
+  /* line 650, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #refer .share-wrap .social-links .fb {
+    background: url(/assets/refer/fb@2x.png);
+    background-size: 27px 27px;
+  }
+
+  /* line 655, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #refer .share-wrap .social-links .twit {
+    background: url(/assets/refer/twit@2x.png);
+    background-size: 27px 27px;
+  }
+
+  /* line 660, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #refer .prizes .progress {
+    background: url(/assets/refer/progress-bg@2x.png) 0 0 repeat-x;
+    background-size: 1px 4px;
+  }
+
+  /* line 665, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #refer .prizes .progress .mover .bar {
+    background: url(/assets/refer/progress-done@2x.png) 0 0 repeat-x;
+    background-size: 1px 4px;
+  }
+
+  /* line 670, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #refer .prizes .progress .mover .razor {
+    background: url(/images/refer/razor@2x.png) 0 0 no-repeat;
+    background-size: 82px 23px;
+  }
+
+  /* line 675, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #refer .prizes .products li.product .caret {
+    background: url(/images/refer/caret@2x.png) center center no-repeat;
+    background-size: 16px 10px;
+  }
+
+  /* line 680, c:/Users/cc/desktop/itsalaunch2/app/assets/stylesheets/_core.scss */
+  #refer .prizes .products li.product.selected .caret {
+    background: url(/images/refer/caret-selected@2x.png) center center no-repeat;
+    background-size: 16px 10px;
+  }
+}
+/*!
+ *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/assets/font-awesome/fontawesome-webfont.eot?v=4.5.0");
+  src: url("/assets/font-awesome/fontawesome-webfont.eot?v=4.5.0#iefix") format("embedded-opentype"), url("/assets/font-awesome/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("/assets/font-awesome/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("/assets/font-awesome/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("/assets/font-awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 4, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_core.scss */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 5, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_larger.scss */
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+/* line 10, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_larger.scss */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 11, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_larger.scss */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 12, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_larger.scss */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 13, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_larger.scss */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 3, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_fixed-width.scss */
+.fa-fw {
+  width: 1.28571em;
+  text-align: center;
+}
+
+/* line 4, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_list.scss */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none;
+}
+/* line 8, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_list.scss */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 10, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_list.scss */
+.fa-li {
+  position: absolute;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
+  text-align: center;
+}
+/* line 16, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_list.scss */
+.fa-li.fa-lg {
+  left: -1.85714em;
+}
+
+/* line 4, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+}
+
+/* line 10, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa-pull-left {
+  float: left;
+}
+
+/* line 11, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa-pull-right {
+  float: right;
+}
+
+/* line 14, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.fa-pull-left {
+  margin-right: .3em;
+}
+/* line 15, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.fa-pull-right {
+  margin-left: .3em;
+}
+
+/* Deprecated as of 4.4.0 */
+/* line 19, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 20, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 23, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.pull-left {
+  margin-right: .3em;
+}
+/* line 24, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 4, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_animated.scss */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+/* line 9, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_animated.scss */
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* line 4, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 5, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 6, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 8, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 9, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 14, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 4, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 12, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 18, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 19, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 20, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-inverse {
+  color: #fff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 4, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-glass:before {
+  content: "";
+}
+
+/* line 5, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-music:before {
+  content: "";
+}
+
+/* line 6, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search:before {
+  content: "";
+}
+
+/* line 7, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope-o:before {
+  content: "";
+}
+
+/* line 8, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heart:before {
+  content: "";
+}
+
+/* line 9, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star:before {
+  content: "";
+}
+
+/* line 10, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-o:before {
+  content: "";
+}
+
+/* line 11, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user:before {
+  content: "";
+}
+
+/* line 12, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-film:before {
+  content: "";
+}
+
+/* line 13, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th-large:before {
+  content: "";
+}
+
+/* line 14, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th:before {
+  content: "";
+}
+
+/* line 15, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th-list:before {
+  content: "";
+}
+
+/* line 16, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check:before {
+  content: "";
+}
+
+/* line 17, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "";
+}
+
+/* line 20, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search-plus:before {
+  content: "";
+}
+
+/* line 21, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search-minus:before {
+  content: "";
+}
+
+/* line 22, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-power-off:before {
+  content: "";
+}
+
+/* line 23, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-signal:before {
+  content: "";
+}
+
+/* line 24, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gear:before,
+.fa-cog:before {
+  content: "";
+}
+
+/* line 26, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trash-o:before {
+  content: "";
+}
+
+/* line 27, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-home:before {
+  content: "";
+}
+
+/* line 28, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-o:before {
+  content: "";
+}
+
+/* line 29, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-clock-o:before {
+  content: "";
+}
+
+/* line 30, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-road:before {
+  content: "";
+}
+
+/* line 31, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-download:before {
+  content: "";
+}
+
+/* line 32, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-down:before {
+  content: "";
+}
+
+/* line 33, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-up:before {
+  content: "";
+}
+
+/* line 34, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-inbox:before {
+  content: "";
+}
+
+/* line 35, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play-circle-o:before {
+  content: "";
+}
+
+/* line 36, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: "";
+}
+
+/* line 38, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-refresh:before {
+  content: "";
+}
+
+/* line 39, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-alt:before {
+  content: "";
+}
+
+/* line 40, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lock:before {
+  content: "";
+}
+
+/* line 41, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag:before {
+  content: "";
+}
+
+/* line 42, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-headphones:before {
+  content: "";
+}
+
+/* line 43, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-off:before {
+  content: "";
+}
+
+/* line 44, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-down:before {
+  content: "";
+}
+
+/* line 45, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-up:before {
+  content: "";
+}
+
+/* line 46, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-qrcode:before {
+  content: "";
+}
+
+/* line 47, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-barcode:before {
+  content: "";
+}
+
+/* line 48, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tag:before {
+  content: "";
+}
+
+/* line 49, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tags:before {
+  content: "";
+}
+
+/* line 50, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-book:before {
+  content: "";
+}
+
+/* line 51, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bookmark:before {
+  content: "";
+}
+
+/* line 52, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-print:before {
+  content: "";
+}
+
+/* line 53, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-camera:before {
+  content: "";
+}
+
+/* line 54, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-font:before {
+  content: "";
+}
+
+/* line 55, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bold:before {
+  content: "";
+}
+
+/* line 56, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-italic:before {
+  content: "";
+}
+
+/* line 57, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-text-height:before {
+  content: "";
+}
+
+/* line 58, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-text-width:before {
+  content: "";
+}
+
+/* line 59, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-left:before {
+  content: "";
+}
+
+/* line 60, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-center:before {
+  content: "";
+}
+
+/* line 61, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-right:before {
+  content: "";
+}
+
+/* line 62, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-justify:before {
+  content: "";
+}
+
+/* line 63, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list:before {
+  content: "";
+}
+
+/* line 64, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dedent:before,
+.fa-outdent:before {
+  content: "";
+}
+
+/* line 66, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-indent:before {
+  content: "";
+}
+
+/* line 67, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-video-camera:before {
+  content: "";
+}
+
+/* line 68, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: "";
+}
+
+/* line 71, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pencil:before {
+  content: "";
+}
+
+/* line 72, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-map-marker:before {
+  content: "";
+}
+
+/* line 73, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-adjust:before {
+  content: "";
+}
+
+/* line 74, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tint:before {
+  content: "";
+}
+
+/* line 75, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "";
+}
+
+/* line 77, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-square-o:before {
+  content: "";
+}
+
+/* line 78, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-square-o:before {
+  content: "";
+}
+
+/* line 79, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows:before {
+  content: "";
+}
+
+/* line 80, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-step-backward:before {
+  content: "";
+}
+
+/* line 81, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fast-backward:before {
+  content: "";
+}
+
+/* line 82, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-backward:before {
+  content: "";
+}
+
+/* line 83, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play:before {
+  content: "";
+}
+
+/* line 84, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pause:before {
+  content: "";
+}
+
+/* line 85, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stop:before {
+  content: "";
+}
+
+/* line 86, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-forward:before {
+  content: "";
+}
+
+/* line 87, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fast-forward:before {
+  content: "";
+}
+
+/* line 88, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-step-forward:before {
+  content: "";
+}
+
+/* line 89, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eject:before {
+  content: "";
+}
+
+/* line 90, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-left:before {
+  content: "";
+}
+
+/* line 91, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-right:before {
+  content: "";
+}
+
+/* line 92, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-circle:before {
+  content: "";
+}
+
+/* line 93, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-circle:before {
+  content: "";
+}
+
+/* line 94, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-times-circle:before {
+  content: "";
+}
+
+/* line 95, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-circle:before {
+  content: "";
+}
+
+/* line 96, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-question-circle:before {
+  content: "";
+}
+
+/* line 97, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-info-circle:before {
+  content: "";
+}
+
+/* line 98, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-crosshairs:before {
+  content: "";
+}
+
+/* line 99, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-times-circle-o:before {
+  content: "";
+}
+
+/* line 100, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-circle-o:before {
+  content: "";
+}
+
+/* line 101, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ban:before {
+  content: "";
+}
+
+/* line 102, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-left:before {
+  content: "";
+}
+
+/* line 103, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-right:before {
+  content: "";
+}
+
+/* line 104, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-up:before {
+  content: "";
+}
+
+/* line 105, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-down:before {
+  content: "";
+}
+
+/* line 106, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-forward:before,
+.fa-share:before {
+  content: "";
+}
+
+/* line 108, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-expand:before {
+  content: "";
+}
+
+/* line 109, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-compress:before {
+  content: "";
+}
+
+/* line 110, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus:before {
+  content: "";
+}
+
+/* line 111, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus:before {
+  content: "";
+}
+
+/* line 112, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-asterisk:before {
+  content: "";
+}
+
+/* line 113, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exclamation-circle:before {
+  content: "";
+}
+
+/* line 114, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gift:before {
+  content: "";
+}
+
+/* line 115, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-leaf:before {
+  content: "";
+}
+
+/* line 116, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fire:before {
+  content: "";
+}
+
+/* line 117, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eye:before {
+  content: "";
+}
+
+/* line 118, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eye-slash:before {
+  content: "";
+}
+
+/* line 119, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: "";
+}
+
+/* line 121, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plane:before {
+  content: "";
+}
+
+/* line 122, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar:before {
+  content: "";
+}
+
+/* line 123, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-random:before {
+  content: "";
+}
+
+/* line 124, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comment:before {
+  content: "";
+}
+
+/* line 125, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-magnet:before {
+  content: "";
+}
+
+/* line 126, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-up:before {
+  content: "";
+}
+
+/* line 127, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-down:before {
+  content: "";
+}
+
+/* line 128, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-retweet:before {
+  content: "";
+}
+
+/* line 129, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shopping-cart:before {
+  content: "";
+}
+
+/* line 130, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder:before {
+  content: "";
+}
+
+/* line 131, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-open:before {
+  content: "";
+}
+
+/* line 132, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-v:before {
+  content: "";
+}
+
+/* line 133, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-h:before {
+  content: "";
+}
+
+/* line 134, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: "";
+}
+
+/* line 136, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitter-square:before {
+  content: "";
+}
+
+/* line 137, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-square:before {
+  content: "";
+}
+
+/* line 138, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-camera-retro:before {
+  content: "";
+}
+
+/* line 139, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-key:before {
+  content: "";
+}
+
+/* line 140, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gears:before,
+.fa-cogs:before {
+  content: "";
+}
+
+/* line 142, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comments:before {
+  content: "";
+}
+
+/* line 143, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-o-up:before {
+  content: "";
+}
+
+/* line 144, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-o-down:before {
+  content: "";
+}
+
+/* line 145, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-half:before {
+  content: "";
+}
+
+/* line 146, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heart-o:before {
+  content: "";
+}
+
+/* line 147, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sign-out:before {
+  content: "";
+}
+
+/* line 148, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linkedin-square:before {
+  content: "";
+}
+
+/* line 149, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumb-tack:before {
+  content: "";
+}
+
+/* line 150, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-external-link:before {
+  content: "";
+}
+
+/* line 151, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sign-in:before {
+  content: "";
+}
+
+/* line 152, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trophy:before {
+  content: "";
+}
+
+/* line 153, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github-square:before {
+  content: "";
+}
+
+/* line 154, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-upload:before {
+  content: "";
+}
+
+/* line 155, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lemon-o:before {
+  content: "";
+}
+
+/* line 156, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-phone:before {
+  content: "";
+}
+
+/* line 157, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-square-o:before {
+  content: "";
+}
+
+/* line 158, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bookmark-o:before {
+  content: "";
+}
+
+/* line 159, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-phone-square:before {
+  content: "";
+}
+
+/* line 160, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitter:before {
+  content: "";
+}
+
+/* line 161, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "";
+}
+
+/* line 163, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github:before {
+  content: "";
+}
+
+/* line 164, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlock:before {
+  content: "";
+}
+
+/* line 165, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-credit-card:before {
+  content: "";
+}
+
+/* line 166, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-feed:before,
+.fa-rss:before {
+  content: "";
+}
+
+/* line 168, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hdd-o:before {
+  content: "";
+}
+
+/* line 169, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bullhorn:before {
+  content: "";
+}
+
+/* line 170, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell:before {
+  content: "";
+}
+
+/* line 171, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-certificate:before {
+  content: "";
+}
+
+/* line 172, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-right:before {
+  content: "";
+}
+
+/* line 173, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-left:before {
+  content: "";
+}
+
+/* line 174, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-up:before {
+  content: "";
+}
+
+/* line 175, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-down:before {
+  content: "";
+}
+
+/* line 176, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-left:before {
+  content: "";
+}
+
+/* line 177, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-right:before {
+  content: "";
+}
+
+/* line 178, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-up:before {
+  content: "";
+}
+
+/* line 179, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-down:before {
+  content: "";
+}
+
+/* line 180, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-globe:before {
+  content: "";
+}
+
+/* line 181, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wrench:before {
+  content: "";
+}
+
+/* line 182, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tasks:before {
+  content: "";
+}
+
+/* line 183, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-filter:before {
+  content: "";
+}
+
+/* line 184, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-briefcase:before {
+  content: "";
+}
+
+/* line 185, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-alt:before {
+  content: "";
+}
+
+/* line 186, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-group:before,
+.fa-users:before {
+  content: "";
+}
+
+/* line 188, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chain:before,
+.fa-link:before {
+  content: "";
+}
+
+/* line 190, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud:before {
+  content: "";
+}
+
+/* line 191, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flask:before {
+  content: "";
+}
+
+/* line 192, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cut:before,
+.fa-scissors:before {
+  content: "";
+}
+
+/* line 194, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-copy:before,
+.fa-files-o:before {
+  content: "";
+}
+
+/* line 196, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paperclip:before {
+  content: "";
+}
+
+/* line 197, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-save:before,
+.fa-floppy-o:before {
+  content: "";
+}
+
+/* line 199, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-square:before {
+  content: "";
+}
+
+/* line 200, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "";
+}
+
+/* line 203, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-ul:before {
+  content: "";
+}
+
+/* line 204, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-ol:before {
+  content: "";
+}
+
+/* line 205, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-strikethrough:before {
+  content: "";
+}
+
+/* line 206, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-underline:before {
+  content: "";
+}
+
+/* line 207, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-table:before {
+  content: "";
+}
+
+/* line 208, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-magic:before {
+  content: "";
+}
+
+/* line 209, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-truck:before {
+  content: "";
+}
+
+/* line 210, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest:before {
+  content: "";
+}
+
+/* line 211, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest-square:before {
+  content: "";
+}
+
+/* line 212, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-plus-square:before {
+  content: "";
+}
+
+/* line 213, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-plus:before {
+  content: "";
+}
+
+/* line 214, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-money:before {
+  content: "";
+}
+
+/* line 215, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-down:before {
+  content: "";
+}
+
+/* line 216, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-up:before {
+  content: "";
+}
+
+/* line 217, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-left:before {
+  content: "";
+}
+
+/* line 218, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-right:before {
+  content: "";
+}
+
+/* line 219, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-columns:before {
+  content: "";
+}
+
+/* line 220, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unsorted:before,
+.fa-sort:before {
+  content: "";
+}
+
+/* line 222, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: "";
+}
+
+/* line 224, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: "";
+}
+
+/* line 226, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope:before {
+  content: "";
+}
+
+/* line 227, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linkedin:before {
+  content: "";
+}
+
+/* line 228, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: "";
+}
+
+/* line 230, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-legal:before,
+.fa-gavel:before {
+  content: "";
+}
+
+/* line 232, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: "";
+}
+
+/* line 234, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comment-o:before {
+  content: "";
+}
+
+/* line 235, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comments-o:before {
+  content: "";
+}
+
+/* line 236, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flash:before,
+.fa-bolt:before {
+  content: "";
+}
+
+/* line 238, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sitemap:before {
+  content: "";
+}
+
+/* line 239, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-umbrella:before {
+  content: "";
+}
+
+/* line 240, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paste:before,
+.fa-clipboard:before {
+  content: "";
+}
+
+/* line 242, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lightbulb-o:before {
+  content: "";
+}
+
+/* line 243, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exchange:before {
+  content: "";
+}
+
+/* line 244, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud-download:before {
+  content: "";
+}
+
+/* line 245, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud-upload:before {
+  content: "";
+}
+
+/* line 246, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-md:before {
+  content: "";
+}
+
+/* line 247, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stethoscope:before {
+  content: "";
+}
+
+/* line 248, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-suitcase:before {
+  content: "";
+}
+
+/* line 249, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-o:before {
+  content: "";
+}
+
+/* line 250, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-coffee:before {
+  content: "";
+}
+
+/* line 251, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cutlery:before {
+  content: "";
+}
+
+/* line 252, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-text-o:before {
+  content: "";
+}
+
+/* line 253, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-building-o:before {
+  content: "";
+}
+
+/* line 254, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hospital-o:before {
+  content: "";
+}
+
+/* line 255, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ambulance:before {
+  content: "";
+}
+
+/* line 256, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-medkit:before {
+  content: "";
+}
+
+/* line 257, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fighter-jet:before {
+  content: "";
+}
+
+/* line 258, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-beer:before {
+  content: "";
+}
+
+/* line 259, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-h-square:before {
+  content: "";
+}
+
+/* line 260, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-square:before {
+  content: "";
+}
+
+/* line 261, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-left:before {
+  content: "";
+}
+
+/* line 262, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-right:before {
+  content: "";
+}
+
+/* line 263, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-up:before {
+  content: "";
+}
+
+/* line 264, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-down:before {
+  content: "";
+}
+
+/* line 265, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-left:before {
+  content: "";
+}
+
+/* line 266, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-right:before {
+  content: "";
+}
+
+/* line 267, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-up:before {
+  content: "";
+}
+
+/* line 268, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-down:before {
+  content: "";
+}
+
+/* line 269, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-desktop:before {
+  content: "";
+}
+
+/* line 270, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-laptop:before {
+  content: "";
+}
+
+/* line 271, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tablet:before {
+  content: "";
+}
+
+/* line 272, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "";
+}
+
+/* line 274, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-o:before {
+  content: "";
+}
+
+/* line 275, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-quote-left:before {
+  content: "";
+}
+
+/* line 276, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-quote-right:before {
+  content: "";
+}
+
+/* line 277, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spinner:before {
+  content: "";
+}
+
+/* line 278, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle:before {
+  content: "";
+}
+
+/* line 279, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: "";
+}
+
+/* line 281, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github-alt:before {
+  content: "";
+}
+
+/* line 282, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-o:before {
+  content: "";
+}
+
+/* line 283, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-open-o:before {
+  content: "";
+}
+
+/* line 284, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-smile-o:before {
+  content: "";
+}
+
+/* line 285, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-frown-o:before {
+  content: "";
+}
+
+/* line 286, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-meh-o:before {
+  content: "";
+}
+
+/* line 287, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gamepad:before {
+  content: "";
+}
+
+/* line 288, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-keyboard-o:before {
+  content: "";
+}
+
+/* line 289, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag-o:before {
+  content: "";
+}
+
+/* line 290, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag-checkered:before {
+  content: "";
+}
+
+/* line 291, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-terminal:before {
+  content: "";
+}
+
+/* line 292, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-code:before {
+  content: "";
+}
+
+/* line 293, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "";
+}
+
+/* line 295, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: "";
+}
+
+/* line 298, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-location-arrow:before {
+  content: "";
+}
+
+/* line 299, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-crop:before {
+  content: "";
+}
+
+/* line 300, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-code-fork:before {
+  content: "";
+}
+
+/* line 301, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: "";
+}
+
+/* line 303, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-question:before {
+  content: "";
+}
+
+/* line 304, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-info:before {
+  content: "";
+}
+
+/* line 305, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exclamation:before {
+  content: "";
+}
+
+/* line 306, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-superscript:before {
+  content: "";
+}
+
+/* line 307, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-subscript:before {
+  content: "";
+}
+
+/* line 308, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eraser:before {
+  content: "";
+}
+
+/* line 309, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-puzzle-piece:before {
+  content: "";
+}
+
+/* line 310, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-microphone:before {
+  content: "";
+}
+
+/* line 311, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-microphone-slash:before {
+  content: "";
+}
+
+/* line 312, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shield:before {
+  content: "";
+}
+
+/* line 313, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar-o:before {
+  content: "";
+}
+
+/* line 314, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fire-extinguisher:before {
+  content: "";
+}
+
+/* line 315, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rocket:before {
+  content: "";
+}
+
+/* line 316, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-maxcdn:before {
+  content: "";
+}
+
+/* line 317, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-left:before {
+  content: "";
+}
+
+/* line 318, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-right:before {
+  content: "";
+}
+
+/* line 319, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-up:before {
+  content: "";
+}
+
+/* line 320, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-down:before {
+  content: "";
+}
+
+/* line 321, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-html5:before {
+  content: "";
+}
+
+/* line 322, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-css3:before {
+  content: "";
+}
+
+/* line 323, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-anchor:before {
+  content: "";
+}
+
+/* line 324, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlock-alt:before {
+  content: "";
+}
+
+/* line 325, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bullseye:before {
+  content: "";
+}
+
+/* line 326, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ellipsis-h:before {
+  content: "";
+}
+
+/* line 327, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ellipsis-v:before {
+  content: "";
+}
+
+/* line 328, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rss-square:before {
+  content: "";
+}
+
+/* line 329, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play-circle:before {
+  content: "";
+}
+
+/* line 330, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ticket:before {
+  content: "";
+}
+
+/* line 331, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-square:before {
+  content: "";
+}
+
+/* line 332, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-square-o:before {
+  content: "";
+}
+
+/* line 333, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-level-up:before {
+  content: "";
+}
+
+/* line 334, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-level-down:before {
+  content: "";
+}
+
+/* line 335, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-square:before {
+  content: "";
+}
+
+/* line 336, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pencil-square:before {
+  content: "";
+}
+
+/* line 337, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-external-link-square:before {
+  content: "";
+}
+
+/* line 338, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-square:before {
+  content: "";
+}
+
+/* line 339, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-compass:before {
+  content: "";
+}
+
+/* line 340, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: "";
+}
+
+/* line 342, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: "";
+}
+
+/* line 344, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: "";
+}
+
+/* line 346, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-euro:before,
+.fa-eur:before {
+  content: "";
+}
+
+/* line 348, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gbp:before {
+  content: "";
+}
+
+/* line 349, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dollar:before,
+.fa-usd:before {
+  content: "";
+}
+
+/* line 351, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rupee:before,
+.fa-inr:before {
+  content: "";
+}
+
+/* line 353, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: "";
+}
+
+/* line 357, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "";
+}
+
+/* line 360, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-won:before,
+.fa-krw:before {
+  content: "";
+}
+
+/* line 362, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: "";
+}
+
+/* line 364, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file:before {
+  content: "";
+}
+
+/* line 365, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-text:before {
+  content: "";
+}
+
+/* line 366, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-alpha-asc:before {
+  content: "";
+}
+
+/* line 367, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-alpha-desc:before {
+  content: "";
+}
+
+/* line 368, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-amount-asc:before {
+  content: "";
+}
+
+/* line 369, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-amount-desc:before {
+  content: "";
+}
+
+/* line 370, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-numeric-asc:before {
+  content: "";
+}
+
+/* line 371, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-numeric-desc:before {
+  content: "";
+}
+
+/* line 372, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-up:before {
+  content: "";
+}
+
+/* line 373, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-down:before {
+  content: "";
+}
+
+/* line 374, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube-square:before {
+  content: "";
+}
+
+/* line 375, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube:before {
+  content: "";
+}
+
+/* line 376, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-xing:before {
+  content: "";
+}
+
+/* line 377, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-xing-square:before {
+  content: "";
+}
+
+/* line 378, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube-play:before {
+  content: "";
+}
+
+/* line 379, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dropbox:before {
+  content: "";
+}
+
+/* line 380, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stack-overflow:before {
+  content: "";
+}
+
+/* line 381, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-instagram:before {
+  content: "";
+}
+
+/* line 382, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flickr:before {
+  content: "";
+}
+
+/* line 383, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-adn:before {
+  content: "";
+}
+
+/* line 384, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitbucket:before {
+  content: "";
+}
+
+/* line 385, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitbucket-square:before {
+  content: "";
+}
+
+/* line 386, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tumblr:before {
+  content: "";
+}
+
+/* line 387, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tumblr-square:before {
+  content: "";
+}
+
+/* line 388, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-down:before {
+  content: "";
+}
+
+/* line 389, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-up:before {
+  content: "";
+}
+
+/* line 390, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-left:before {
+  content: "";
+}
+
+/* line 391, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-right:before {
+  content: "";
+}
+
+/* line 392, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-apple:before {
+  content: "";
+}
+
+/* line 393, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-windows:before {
+  content: "";
+}
+
+/* line 394, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-android:before {
+  content: "";
+}
+
+/* line 395, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linux:before {
+  content: "";
+}
+
+/* line 396, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dribbble:before {
+  content: "";
+}
+
+/* line 397, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-skype:before {
+  content: "";
+}
+
+/* line 398, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-foursquare:before {
+  content: "";
+}
+
+/* line 399, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trello:before {
+  content: "";
+}
+
+/* line 400, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-female:before {
+  content: "";
+}
+
+/* line 401, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-male:before {
+  content: "";
+}
+
+/* line 402, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gittip:before,
+.fa-gratipay:before {
+  content: "";
+}
+
+/* line 404, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sun-o:before {
+  content: "";
+}
+
+/* line 405, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-moon-o:before {
+  content: "";
+}
+
+/* line 406, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-archive:before {
+  content: "";
+}
+
+/* line 407, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bug:before {
+  content: "";
+}
+
+/* line 408, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vk:before {
+  content: "";
+}
+
+/* line 409, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-weibo:before {
+  content: "";
+}
+
+/* line 410, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-renren:before {
+  content: "";
+}
+
+/* line 411, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pagelines:before {
+  content: "";
+}
+
+/* line 412, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stack-exchange:before {
+  content: "";
+}
+
+/* line 413, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-right:before {
+  content: "";
+}
+
+/* line 414, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-left:before {
+  content: "";
+}
+
+/* line 415, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: "";
+}
+
+/* line 417, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dot-circle-o:before {
+  content: "";
+}
+
+/* line 418, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wheelchair:before {
+  content: "";
+}
+
+/* line 419, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vimeo-square:before {
+  content: "";
+}
+
+/* line 420, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "";
+}
+
+/* line 422, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-square-o:before {
+  content: "";
+}
+
+/* line 423, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-space-shuttle:before {
+  content: "";
+}
+
+/* line 424, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-slack:before {
+  content: "";
+}
+
+/* line 425, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope-square:before {
+  content: "";
+}
+
+/* line 426, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wordpress:before {
+  content: "";
+}
+
+/* line 427, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-openid:before {
+  content: "";
+}
+
+/* line 428, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: "";
+}
+
+/* line 431, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: "";
+}
+
+/* line 433, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-yahoo:before {
+  content: "";
+}
+
+/* line 434, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google:before {
+  content: "";
+}
+
+/* line 435, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-reddit:before {
+  content: "";
+}
+
+/* line 436, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-reddit-square:before {
+  content: "";
+}
+
+/* line 437, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stumbleupon-circle:before {
+  content: "";
+}
+
+/* line 438, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stumbleupon:before {
+  content: "";
+}
+
+/* line 439, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-delicious:before {
+  content: "";
+}
+
+/* line 440, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-digg:before {
+  content: "";
+}
+
+/* line 441, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pied-piper:before {
+  content: "";
+}
+
+/* line 442, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pied-piper-alt:before {
+  content: "";
+}
+
+/* line 443, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-drupal:before {
+  content: "";
+}
+
+/* line 444, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-joomla:before {
+  content: "";
+}
+
+/* line 445, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-language:before {
+  content: "";
+}
+
+/* line 446, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fax:before {
+  content: "";
+}
+
+/* line 447, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-building:before {
+  content: "";
+}
+
+/* line 448, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-child:before {
+  content: "";
+}
+
+/* line 449, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paw:before {
+  content: "";
+}
+
+/* line 450, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spoon:before {
+  content: "";
+}
+
+/* line 451, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cube:before {
+  content: "";
+}
+
+/* line 452, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cubes:before {
+  content: "";
+}
+
+/* line 453, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-behance:before {
+  content: "";
+}
+
+/* line 454, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-behance-square:before {
+  content: "";
+}
+
+/* line 455, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-steam:before {
+  content: "";
+}
+
+/* line 456, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-steam-square:before {
+  content: "";
+}
+
+/* line 457, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-recycle:before {
+  content: "";
+}
+
+/* line 458, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-automobile:before,
+.fa-car:before {
+  content: "";
+}
+
+/* line 460, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cab:before,
+.fa-taxi:before {
+  content: "";
+}
+
+/* line 462, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tree:before {
+  content: "";
+}
+
+/* line 463, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spotify:before {
+  content: "";
+}
+
+/* line 464, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-deviantart:before {
+  content: "";
+}
+
+/* line 465, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-soundcloud:before {
+  content: "";
+}
+
+/* line 466, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-database:before {
+  content: "";
+}
+
+/* line 467, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-pdf-o:before {
+  content: "";
+}
+
+/* line 468, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-word-o:before {
+  content: "";
+}
+
+/* line 469, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-excel-o:before {
+  content: "";
+}
+
+/* line 470, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-powerpoint-o:before {
+  content: "";
+}
+
+/* line 471, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: "";
+}
+
+/* line 474, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: "";
+}
+
+/* line 476, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: "";
+}
+
+/* line 478, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: "";
+}
+
+/* line 480, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-code-o:before {
+  content: "";
+}
+
+/* line 481, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vine:before {
+  content: "";
+}
+
+/* line 482, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-codepen:before {
+  content: "";
+}
+
+/* line 483, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-jsfiddle:before {
+  content: "";
+}
+
+/* line 484, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "";
+}
+
+/* line 489, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-o-notch:before {
+  content: "";
+}
+
+/* line 490, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ra:before,
+.fa-rebel:before {
+  content: "";
+}
+
+/* line 492, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ge:before,
+.fa-empire:before {
+  content: "";
+}
+
+/* line 494, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-git-square:before {
+  content: "";
+}
+
+/* line 495, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-git:before {
+  content: "";
+}
+
+/* line 496, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-y-combinator-square:before,
+.fa-yc-square:before,
+.fa-hacker-news:before {
+  content: "";
+}
+
+/* line 499, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tencent-weibo:before {
+  content: "";
+}
+
+/* line 500, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-qq:before {
+  content: "";
+}
+
+/* line 501, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "";
+}
+
+/* line 503, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "";
+}
+
+/* line 505, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: "";
+}
+
+/* line 507, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-history:before {
+  content: "";
+}
+
+/* line 508, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-thin:before {
+  content: "";
+}
+
+/* line 509, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-header:before {
+  content: "";
+}
+
+/* line 510, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paragraph:before {
+  content: "";
+}
+
+/* line 511, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sliders:before {
+  content: "";
+}
+
+/* line 512, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-alt:before {
+  content: "";
+}
+
+/* line 513, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-alt-square:before {
+  content: "";
+}
+
+/* line 514, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bomb:before {
+  content: "";
+}
+
+/* line 515, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "";
+}
+
+/* line 517, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tty:before {
+  content: "";
+}
+
+/* line 518, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-binoculars:before {
+  content: "";
+}
+
+/* line 519, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plug:before {
+  content: "";
+}
+
+/* line 520, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-slideshare:before {
+  content: "";
+}
+
+/* line 521, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitch:before {
+  content: "";
+}
+
+/* line 522, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-yelp:before {
+  content: "";
+}
+
+/* line 523, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-newspaper-o:before {
+  content: "";
+}
+
+/* line 524, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wifi:before {
+  content: "";
+}
+
+/* line 525, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calculator:before {
+  content: "";
+}
+
+/* line 526, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paypal:before {
+  content: "";
+}
+
+/* line 527, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-wallet:before {
+  content: "";
+}
+
+/* line 528, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-visa:before {
+  content: "";
+}
+
+/* line 529, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-mastercard:before {
+  content: "";
+}
+
+/* line 530, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-discover:before {
+  content: "";
+}
+
+/* line 531, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-amex:before {
+  content: "";
+}
+
+/* line 532, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-paypal:before {
+  content: "";
+}
+
+/* line 533, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-stripe:before {
+  content: "";
+}
+
+/* line 534, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-slash:before {
+  content: "";
+}
+
+/* line 535, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-slash-o:before {
+  content: "";
+}
+
+/* line 536, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trash:before {
+  content: "";
+}
+
+/* line 537, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-copyright:before {
+  content: "";
+}
+
+/* line 538, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-at:before {
+  content: "";
+}
+
+/* line 539, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eyedropper:before {
+  content: "";
+}
+
+/* line 540, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paint-brush:before {
+  content: "";
+}
+
+/* line 541, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-birthday-cake:before {
+  content: "";
+}
+
+/* line 542, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-area-chart:before {
+  content: "";
+}
+
+/* line 543, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pie-chart:before {
+  content: "";
+}
+
+/* line 544, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-line-chart:before {
+  content: "";
+}
+
+/* line 545, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lastfm:before {
+  content: "";
+}
+
+/* line 546, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lastfm-square:before {
+  content: "";
+}
+
+/* line 547, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-off:before {
+  content: "";
+}
+
+/* line 548, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-on:before {
+  content: "";
+}
+
+/* line 549, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bicycle:before {
+  content: "";
+}
+
+/* line 550, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bus:before {
+  content: "";
+}
+
+/* line 551, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ioxhost:before {
+  content: "";
+}
+
+/* line 552, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angellist:before {
+  content: "";
+}
+
+/* line 553, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc:before {
+  content: "";
+}
+
+/* line 554, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "";
+}
+
+/* line 557, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-meanpath:before {
+  content: "";
+}
+
+/* line 558, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-buysellads:before {
+  content: "";
+}
+
+/* line 559, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-connectdevelop:before {
+  content: "";
+}
+
+/* line 560, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dashcube:before {
+  content: "";
+}
+
+/* line 561, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-forumbee:before {
+  content: "";
+}
+
+/* line 562, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-leanpub:before {
+  content: "";
+}
+
+/* line 563, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sellsy:before {
+  content: "";
+}
+
+/* line 564, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shirtsinbulk:before {
+  content: "";
+}
+
+/* line 565, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-simplybuilt:before {
+  content: "";
+}
+
+/* line 566, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-skyatlas:before {
+  content: "";
+}
+
+/* line 567, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cart-plus:before {
+  content: "";
+}
+
+/* line 568, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cart-arrow-down:before {
+  content: "";
+}
+
+/* line 569, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-diamond:before {
+  content: "";
+}
+
+/* line 570, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ship:before {
+  content: "";
+}
+
+/* line 571, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-secret:before {
+  content: "";
+}
+
+/* line 572, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-motorcycle:before {
+  content: "";
+}
+
+/* line 573, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-street-view:before {
+  content: "";
+}
+
+/* line 574, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heartbeat:before {
+  content: "";
+}
+
+/* line 575, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-venus:before {
+  content: "";
+}
+
+/* line 576, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars:before {
+  content: "";
+}
+
+/* line 577, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mercury:before {
+  content: "";
+}
+
+/* line 578, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-intersex:before,
+.fa-transgender:before {
+  content: "";
+}
+
+/* line 580, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-transgender-alt:before {
+  content: "";
+}
+
+/* line 581, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-venus-double:before {
+  content: "";
+}
+
+/* line 582, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-double:before {
+  content: "";
+}
+
+/* line 583, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-venus-mars:before {
+  content: "";
+}
+
+/* line 584, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-stroke:before {
+  content: "";
+}
+
+/* line 585, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-stroke-v:before {
+  content: "";
+}
+
+/* line 586, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-stroke-h:before {
+  content: "";
+}
+
+/* line 587, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-neuter:before {
+  content: "";
+}
+
+/* line 588, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-genderless:before {
+  content: "";
+}
+
+/* line 589, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-official:before {
+  content: "";
+}
+
+/* line 590, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest-p:before {
+  content: "";
+}
+
+/* line 591, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-whatsapp:before {
+  content: "";
+}
+
+/* line 592, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-server:before {
+  content: "";
+}
+
+/* line 593, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-plus:before {
+  content: "";
+}
+
+/* line 594, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-times:before {
+  content: "";
+}
+
+/* line 595, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hotel:before,
+.fa-bed:before {
+  content: "";
+}
+
+/* line 597, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-viacoin:before {
+  content: "";
+}
+
+/* line 598, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-train:before {
+  content: "";
+}
+
+/* line 599, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-subway:before {
+  content: "";
+}
+
+/* line 600, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-medium:before {
+  content: "";
+}
+
+/* line 601, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-yc:before,
+.fa-y-combinator:before {
+  content: "";
+}
+
+/* line 603, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-optin-monster:before {
+  content: "";
+}
+
+/* line 604, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-opencart:before {
+  content: "";
+}
+
+/* line 605, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-expeditedssl:before {
+  content: "";
+}
+
+/* line 606, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-battery-4:before,
+.fa-battery-full:before {
+  content: "";
+}
+
+/* line 608, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-battery-3:before,
+.fa-battery-three-quarters:before {
+  content: "";
+}
+
+/* line 610, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-battery-2:before,
+.fa-battery-half:before {
+  content: "";
+}
+
+/* line 612, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-battery-1:before,
+.fa-battery-quarter:before {
+  content: "";
+}
+
+/* line 614, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-battery-0:before,
+.fa-battery-empty:before {
+  content: "";
+}
+
+/* line 616, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mouse-pointer:before {
+  content: "";
+}
+
+/* line 617, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-i-cursor:before {
+  content: "";
+}
+
+/* line 618, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-object-group:before {
+  content: "";
+}
+
+/* line 619, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-object-ungroup:before {
+  content: "";
+}
+
+/* line 620, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sticky-note:before {
+  content: "";
+}
+
+/* line 621, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sticky-note-o:before {
+  content: "";
+}
+
+/* line 622, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-jcb:before {
+  content: "";
+}
+
+/* line 623, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-diners-club:before {
+  content: "";
+}
+
+/* line 624, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-clone:before {
+  content: "";
+}
+
+/* line 625, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-balance-scale:before {
+  content: "";
+}
+
+/* line 626, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hourglass-o:before {
+  content: "";
+}
+
+/* line 627, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hourglass-1:before,
+.fa-hourglass-start:before {
+  content: "";
+}
+
+/* line 629, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hourglass-2:before,
+.fa-hourglass-half:before {
+  content: "";
+}
+
+/* line 631, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hourglass-3:before,
+.fa-hourglass-end:before {
+  content: "";
+}
+
+/* line 633, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hourglass:before {
+  content: "";
+}
+
+/* line 634, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-grab-o:before,
+.fa-hand-rock-o:before {
+  content: "";
+}
+
+/* line 636, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-stop-o:before,
+.fa-hand-paper-o:before {
+  content: "";
+}
+
+/* line 638, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-scissors-o:before {
+  content: "";
+}
+
+/* line 639, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-lizard-o:before {
+  content: "";
+}
+
+/* line 640, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-spock-o:before {
+  content: "";
+}
+
+/* line 641, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-pointer-o:before {
+  content: "";
+}
+
+/* line 642, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-peace-o:before {
+  content: "";
+}
+
+/* line 643, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trademark:before {
+  content: "";
+}
+
+/* line 644, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-registered:before {
+  content: "";
+}
+
+/* line 645, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-creative-commons:before {
+  content: "";
+}
+
+/* line 646, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gg:before {
+  content: "";
+}
+
+/* line 647, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gg-circle:before {
+  content: "";
+}
+
+/* line 648, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tripadvisor:before {
+  content: "";
+}
+
+/* line 649, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-odnoklassniki:before {
+  content: "";
+}
+
+/* line 650, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-odnoklassniki-square:before {
+  content: "";
+}
+
+/* line 651, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-get-pocket:before {
+  content: "";
+}
+
+/* line 652, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wikipedia-w:before {
+  content: "";
+}
+
+/* line 653, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-safari:before {
+  content: "";
+}
+
+/* line 654, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chrome:before {
+  content: "";
+}
+
+/* line 655, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-firefox:before {
+  content: "";
+}
+
+/* line 656, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-opera:before {
+  content: "";
+}
+
+/* line 657, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-internet-explorer:before {
+  content: "";
+}
+
+/* line 658, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tv:before,
+.fa-television:before {
+  content: "";
+}
+
+/* line 660, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-contao:before {
+  content: "";
+}
+
+/* line 661, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-500px:before {
+  content: "";
+}
+
+/* line 662, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-amazon:before {
+  content: "";
+}
+
+/* line 663, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar-plus-o:before {
+  content: "";
+}
+
+/* line 664, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar-minus-o:before {
+  content: "";
+}
+
+/* line 665, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar-times-o:before {
+  content: "";
+}
+
+/* line 666, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar-check-o:before {
+  content: "";
+}
+
+/* line 667, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-industry:before {
+  content: "";
+}
+
+/* line 668, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-map-pin:before {
+  content: "";
+}
+
+/* line 669, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-map-signs:before {
+  content: "";
+}
+
+/* line 670, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-map-o:before {
+  content: "";
+}
+
+/* line 671, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-map:before {
+  content: "";
+}
+
+/* line 672, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-commenting:before {
+  content: "";
+}
+
+/* line 673, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-commenting-o:before {
+  content: "";
+}
+
+/* line 674, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-houzz:before {
+  content: "";
+}
+
+/* line 675, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vimeo:before {
+  content: "";
+}
+
+/* line 676, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-black-tie:before {
+  content: "";
+}
+
+/* line 677, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fonticons:before {
+  content: "";
+}
+
+/* line 678, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-reddit-alien:before {
+  content: "";
+}
+
+/* line 679, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-edge:before {
+  content: "";
+}
+
+/* line 680, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-credit-card-alt:before {
+  content: "";
+}
+
+/* line 681, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-codiepie:before {
+  content: "";
+}
+
+/* line 682, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-modx:before {
+  content: "";
+}
+
+/* line 683, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fort-awesome:before {
+  content: "";
+}
+
+/* line 684, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-usb:before {
+  content: "";
+}
+
+/* line 685, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-product-hunt:before {
+  content: "";
+}
+
+/* line 686, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mixcloud:before {
+  content: "";
+}
+
+/* line 687, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-scribd:before {
+  content: "";
+}
+
+/* line 688, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pause-circle:before {
+  content: "";
+}
+
+/* line 689, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pause-circle-o:before {
+  content: "";
+}
+
+/* line 690, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stop-circle:before {
+  content: "";
+}
+
+/* line 691, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stop-circle-o:before {
+  content: "";
+}
+
+/* line 692, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shopping-bag:before {
+  content: "";
+}
+
+/* line 693, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shopping-basket:before {
+  content: "";
+}
+
+/* line 694, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hashtag:before {
+  content: "";
+}
+
+/* line 695, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bluetooth:before {
+  content: "";
+}
+
+/* line 696, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bluetooth-b:before {
+  content: "";
+}
+
+/* line 697, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_icons.scss */
+.fa-percent:before {
+  content: "";
+}
