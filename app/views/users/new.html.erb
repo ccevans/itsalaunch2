@@ -11,11 +11,19 @@
         <p class="go-to brandon">In the meantime, head to  <a href="http://www.harrys.com/">WWW.HARRYS.COM</a></p>
         <p class="again brandon">Thank You Again!</p>
     <% else %>
+
         <div class="key"><i class="fa fa-plug fa-flip-horizontal"></i></div>
-        <p class="byline brandon">Get early access to beta<br>Currently available for Charlotte</p>
+        <p class="byline brandon">Get on waiting list to get invite<br></p>
         <%= form_for @user, :url => { :action => "create" } do |f| %>
             <%= f.text_field :email, :placeholder => "Enter Email", :class => "email brandon" %>
             <input class="submit brandon" name="commit" type="submit" value="Plug In" />
         <% end %>
+        <div class="gotoappbox">
+
+        <%= link_to "GO TO APP", "http://beta.plugsapp.com/", class: "gotoapp" %>
+
+        <p class="check brandon">Site Designed by <%= link_to 'http://itsaspaceship.com', :target => "_blank" do %> <%= image_tag 'spaceship-logo-black.png', :class => "design-footer" %><% end %>.</p>
+
+       </div>
     <% end %>
 </div>
