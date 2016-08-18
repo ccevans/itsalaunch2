@@ -19,10 +19,15 @@
             <input class="submit brandon" name="commit" type="submit" value="Plug In" />
         <% end %>
         <div class="gotoappbox">
+            <p>Working on app launch, thanks to all who participated with beta app.</p>
 
-        <%= link_to "GO TO APP", "http://beta.plugsapp.com/", class: "gotoapp" %>
+            <span class="gotoapp">Launching Soon</span>
+        <%= link_to "GO TO APP", "http://www.plugsapp.com/", class: "gotoapp nodisplay" %>
+
+        <% if false %>
 
         <p class="check brandon">Site Designed by <%= link_to 'http://itsaspaceship.com', :target => "_blank" do %> <%= image_tag 'spaceship-logo-black.png', :class => "design-footer" %><% end %>.</p>
+        <% end %>
 
        </div>
     <% end %>

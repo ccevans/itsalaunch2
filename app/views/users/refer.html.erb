@@ -14,7 +14,7 @@
             <p class="title brandon">INVITE FRIENDS & Get Early Access</p>
             <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and get early access when <br>two friends sign up.</p>
             <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
-            <% twitter_message = "Connect to the plug.  Checkout the @PLUGS_app dropping soon." %>
+            <% twitter_message = "Connect to the plug.  Checkout the @getPLUGS." %>
             <div class="social-links">
                 <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Harrys" class="fb" target="_blank"></a>
                 <div class="sep"></div>
@@ -60,7 +60,9 @@
         <% end %>
         <p class="check brandon">Keep checking</p>
 
+        <% if false %>
         <p class="check brandon">Site Designed by <%= link_to 'http://itsaspaceship.com', :target => "_blank" do %> <%= image_tag 'spaceship-logo-black.png', :class => "design-footer" %><% end %>.</p>
+        <% end %>
 
        </div>
 </div>
