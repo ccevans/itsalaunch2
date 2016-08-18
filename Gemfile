@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.5'
+ruby '2.1.7'
 
 gem 'rails', '4.2.0'
 
@@ -13,6 +13,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'coffee-script-source', '1.8.0'
 gem 'childprocess', '~> 0.5.9'
 gem 'font-awesome-sass'
+gem 'has_scope'
 
 group :assets do
   gem 'coffee-rails', '~> 4.1.0'

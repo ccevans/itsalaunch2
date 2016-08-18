@@ -232,6 +232,7 @@ DEPENDENCIES
   devise
   dotenv-rails
   font-awesome-sass
+  has_scope
   inherited_resources!
   pg
   pry
