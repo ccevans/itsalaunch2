@@ -8,7 +8,7 @@ class UsersController < ApplicationController
         @user = User.new
 
         respond_to do |format|
-            format.html { redirect_to '/refer-a-friend' }
+            format.html # new.html.erb
         end
     end
 
@@ -50,6 +50,7 @@ class UsersController < ApplicationController
             end
 
             @user.save
+            redirect_to '/refer-a-friend'
         end
 
         # Send them over refer action
