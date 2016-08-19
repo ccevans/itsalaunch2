@@ -50,7 +50,7 @@ class UsersController < ApplicationController
             end
 
             @user.save
-            redirect_to '/refer-a-friend'
+
         end
 
         # Send them over refer action
